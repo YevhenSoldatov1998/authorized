@@ -4,7 +4,7 @@ export interface ISignInState {
     rememberMe: boolean,
     auth: boolean,
     error: null | string
-    // isFetching: boolean
+    isLoading: boolean
 }
 
 export const signInInitialState: ISignInState = {
@@ -12,8 +12,8 @@ export const signInInitialState: ISignInState = {
     password: '',
     rememberMe: false,
     auth: false,
-    error: null
-    // isFetching: false
+    error: null,
+    isLoading: false
 };
 //
 // email: 'test@email.nya',
