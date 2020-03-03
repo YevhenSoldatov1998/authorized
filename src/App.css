@@ -34,6 +34,12 @@ button{
     text-transform: uppercase;
     cursor: pointer;
     margin: 10px 0;
+    transition: all .25s ease;
+}
+button:disabled{
+    background: #a5a5a5;
+    color: #dedede;
+    cursor: not-allowed;
 }
 .form{
     position: relative;
